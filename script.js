@@ -4,7 +4,7 @@ const plants = [
     latin: "Chamaebatia foliolosa",
     family: "蔷薇科 · Chamaebatia 属",
     text: "缪尔笔下如黄绿色毛毯般连绵数英里的主角。叶片三回羽状，像细密蕨叶；腺体会分泌树脂，散发强烈香气。白色小花与草莓花相似。",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Chamaebatia_foliolosa_06776.JPG?width=700",
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Chamaebatia_foliolosa_2.jpg",
     x: 58, y: 72
   },
   {
@@ -20,7 +20,7 @@ const plants = [
     latin: "Lupinus spp.",
     family: "豆科 · 羽扇豆属",
     text: "掌状复叶与层层排列的蝶形花很容易辨认。缪尔在阳光充足的河岸背后看见它们，与雀麦和紫罗兰一起构成春日野花带。",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Lupinus_albifrons_1.jpg?width=700",
+    image: "https://cdn.mos.cms.futurecdn.net/g8sDNPq8MzBSgzxXsBcg9b-1600-80.jpg.webp",
     x: 71, y: 57
   },
   {
@@ -44,7 +44,7 @@ const plants = [
     latin: "Monardella odoratissima",
     family: "唇形科 · 山薄荷属",
     text: "北美西部山地的芳香多年生草本。揉搓叶片可闻到清凉的薄荷气味，淡紫色小花聚成紧密花序，吸引大量传粉昆虫。",
-    image: "http://science.halleyhosting.com/nature/basin/5petal/mint/monardella/odoratissima/odoratissima1a.jpg",
+    image: "https://waterwisegardenplanner.org/wp-content/uploads/2017/06/Monardella-odoratissima-4-of-4-1024x1024.jpg",
     x: 67, y: 79
   },
   {
