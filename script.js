@@ -12,7 +12,7 @@ const plants = [
     latin: "Lilium washingtonianum",
     family: "百合科 · 百合属",
     text: "加州山地常见的高大百合。洁白花被片带紫色斑点，盛开后渐呈淡紫色。日记中，它偶尔从低矮灌木构成的“毯子”上探出头来。",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_washingtonianum_7198.JPG?width=700",
+    image: "https://oregonflora.org/dbimages/OFPimages/OFPImages_big/2016/DIG43428.jpg",
     x: 82, y: 72
   },
   {
@@ -36,7 +36,7 @@ const plants = [
     latin: "Pteridium aquilinum",
     family: "碗蕨科 · 蕨属",
     text: "适应力极强的蕨类，地下根茎可以在林缘和开阔坡地扩张。卷曲的新叶展开后，形成宽阔而轻盈的三角形叶片。",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Pteridium_aquilinum_003.JPG?width=700",
+    image: "https://www.gardenia.net/wp-content/uploads/2023/05/pteridium-aquilinum-780x520.webp",
     x: 37, y: 76
   },
   {
@@ -44,7 +44,7 @@ const plants = [
     latin: "Monardella odoratissima",
     family: "唇形科 · 山薄荷属",
     text: "北美西部山地的芳香多年生草本。揉搓叶片可闻到清凉的薄荷气味，淡紫色小花聚成紧密花序，吸引大量传粉昆虫。",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Monardella_odoratissima_8079.JPG?width=700",
+    image: "http://science.halleyhosting.com/nature/basin/5petal/mint/monardella/odoratissima/odoratissima1a.jpg",
     x: 67, y: 79
   },
   {
@@ -52,7 +52,7 @@ const plants = [
     latin: "Bromus spp.",
     family: "禾本科 · 雀麦属",
     text: "缪尔把高大的雀麦写成风中摇摆的竹子。它们并不以单朵花取胜，而以轻盈花序和成片的节奏感塑造了河岸草地。",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Bromus_carinatus_2004-05-24.jpg?width=700",
+    image: "https://portal.wiktrop.org/files-api/api/get/crop/img//Bromus%20catharticus/broca_20090702_210012.jpg?h=500",
     x: 51, y: 61
   },
   {
@@ -60,7 +60,7 @@ const plants = [
     latin: "Viola spp.",
     family: "堇菜科 · 堇菜属",
     text: "小型草本，常藏在草地与林缘较低的位置。花瓣并不总是紫色，但不对称的五瓣花和短距，是野外辨认的重要线索。",
-    image: "https://commons.wikimedia.org/wiki/Special:FilePath/Viola_adunca_7730.JPG?width=700",
+    image: "https://costafarms.com/cdn/shop/articles/Viola-Annual-Flower-HERO-Costa-Farms_1000x1000.jpg?v=1680798941",
     x: 77, y: 85
   }
 ];
