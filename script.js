@@ -44,7 +44,7 @@ const plants = [
     latin: "Monardella odoratissima",
     family: "唇形科 · 山薄荷属",
     text: "北美西部山地的芳香多年生草本。揉搓叶片可闻到清凉的薄荷气味，淡紫色小花聚成紧密花序，吸引大量传粉昆虫。",
-    image: "https://gardenoracle.com/images/assets-images/monardella-villosa-flower.jpg",
+    image: "https://calscape.org/storage/app/species_images/calphotos/images/0000_0000_0911_0971.jpeg",
     x: 67, y: 79
   },
   {
