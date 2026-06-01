@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="约翰·缪尔《夏日走过山间》六月九日节选：一页可探索的山间植物志。"
+    />
+    <title>六月九日 · 山间植物志</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,600&family=Noto+Serif+SC:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <img
+        class="hero__image"
+        src="assets/muir-sierra-field-journal.png"
+        alt="晨光中的山溪、松林、蕨类、百合和野花水彩画"
+      />
+      <div class="hero__veil"></div>
+      <nav class="nav">
+        <a class="nav__brand" href="#top">FIELD NOTES <span>01</span></a>
+        <div class="nav__links">
+          <a href="#journal">日记</a>
+          <a href="#herbarium">植物志</a>
+        </div>
+      </nav>
+      <div class="hero__copy">
+        <p class="eyebrow">A summer in the Sierra · 1869</p>
+        <h1>六月九日<br /><em>山间植物志</em></h1>
+        <p class="hero__intro">
+          跟随约翰·缪尔的目光，在松树、溪流与春日的新生之间，辨认那些从文字里生长出来的植物。
+        </p>
+        <a class="hero__start" href="#herbarium">沿着山路辨认植物 <span>↓</span></a>
+      </div>
+      <p class="hero__caption">01 · Sierra Nevada, California</p>
+    </header>
+
+    <main>
+      <section class="journal section-shell" id="journal">
+        <div class="section-kicker">
+          <span>01</span>
+          <p>FIELD JOURNAL</p>
+        </div>
+        <div class="journal__grid">
+          <div>
+            <p class="section-label">约翰·缪尔 · 《夏日走过山间》</p>
+            <h2>昨夜，在大山中心</h2>
+          </div>
+          <article class="journal__text">
+            <p>
+              昨夜，在大山中心，在大树和星光下，在瀑布低沉的流水声和无数细微甜美而平静安抚的声音中，我们睡得多沉啊！我们第一个真正的山中一日，温暖平静、万里无云，仿佛时间没有尽头，荒野无比平静。
+            </p>
+            <p>
+              河岸边，山丘上，土地里，天空中，春天的生命力在欢乐地生长，新生命、新美景在春风中慢慢舒展开，形成一片欣欣向荣的繁茂景致：鸟巢中新生的幼崽，天空中刚学会飞翔的鸟儿，枝桠上新开的花朵新发的绿叶，这一切在扩张，在闪耀，在每个角落欢欣雀跃。
+            </p>
+            <p>
+              营地附近的树生长得很密，浓密的树荫下，蕨类和百合有足够的生长空间。而河岸背后阳光直射到地面，成就了大量青草和各种野花的繁盛。
+            </p>
+          </article>
+        </div>
+        <p class="margin-note">June 9 <span>——</span> a day without edges</p>
+      </section>
+
+      <section class="herbarium" id="herbarium">
+        <div class="section-shell herbarium__heading">
+          <div class="section-kicker section-kicker--light">
+            <span>02</span>
+            <p>WAYSIDE HERBARIUM</p>
+          </div>
+          <p class="section-label">将鼠标移向植物，或轻触名称</p>
+          <h2>在山路边，<br />认出一种植物。</h2>
+          <p class="herbarium__lead">
+            缪尔的描述有时精确到物种，有时只停留在科属。这里将文本中的旧译名与今日常用的植物分类并置，保留一点野外辨认应有的开放感。
+          </p>
+        </div>
+
+        <div class="explorer section-shell">
+          <div class="explorer__stage" id="explorerStage">
+            <img
+              src="assets/muir-sierra-field-journal.png"
+              alt="可以探索的山间植物图景"
+            />
+            <div class="explorer__wash"></div>
+            <p class="stage-note">MOVE SLOWLY THROUGH THE CLEARING</p>
+            <div class="hotspots" id="hotspots"></div>
+            <aside class="plant-card" id="plantCard" aria-live="polite"></aside>
+          </div>
+          <aside class="plant-index">
+            <p class="plant-index__top">INDEX OF SPECIMENS</p>
+            <div id="plantList"></div>
+            <p class="plant-index__foot">08 SPECIMENS · EARLY SUMMER</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="field-note section-shell">
+        <div>
+          <p class="section-label">03 · CLOSE READING</p>
+          <h2>一张黄绿色的毯子</h2>
+        </div>
+        <div>
+          <p>
+            文中最令人难忘的植物，是蔷薇科的芳香小灌木。它在兰伯氏松下连绵数英里，叶片像蕨，白花像草莓花。缪尔没有在日记中写出名字，但描述几乎指向了
+            <i>Chamaebatia foliolosa</i>。
+          </p>
+          <blockquote>
+            “我很喜欢这种小灌木。在此处的山间，它是唯一的一种毯状灌木。”
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>JOHN MUIR · MY FIRST SUMMER IN THE SIERRA</p>
+      <a href="#top">回到山顶 ↑</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
